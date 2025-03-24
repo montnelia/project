@@ -43,7 +43,7 @@ For this dataset the Bank of England asked `r prettyNum(nrow(inflation), big.mar
 
 
 
-The survey has run quarterly since `r min(inflation$year)` for all these years.
+The survey has run quarterly since `r min(inflation$year)` for all these years AAA.
 
 ```{r}
 inflation %>%  
