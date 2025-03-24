@@ -3,12 +3,14 @@ title: "Inflation Data"
 author: "Aaron Peikert"
 date: "`r Sys.Date()`"
 output:
-  tufte::tufte_handout: default
   tufte::tufte_html: default
+  tufte::tufte_handout: default
 repro:
   packages:
   - here
   - tidyverse
+  - broom
+  - bslib
   - lubridate
   - aaronpeikert/repro@fc7e884
   scripts: R/prepare_inflation.R

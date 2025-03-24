@@ -1,4 +1,6 @@
 RUN install2.r --error --skipinstalled \ 
+  broom \ 
+  bslib \ 
   here \ 
   lubridate \ 
   tidyverse
