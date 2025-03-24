@@ -43,7 +43,7 @@ For this dataset the Bank of England asked `r prettyNum(nrow(inflation), big.mar
 The survey has run quarterly since `r min(inflation$year)`.
 
 ```{r}
-inflation %>% 
+inflation %>%  
   group_by(date) %>% 
   summarise(across(c(perception, expectation),
                    ~ mean(., na.rm = TRUE)),
